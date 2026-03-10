@@ -98,12 +98,12 @@ const loginPage = `<!DOCTYPE html>
       <p>Enter your account details to continue.</p>
       <form>
         <div class="field">
-          <label for="txtUserName">UserName</label>
-          <input id="txtUserName" name="txtUserName" type="text" placeholder="Enter your username" />
+          <label for="textboxusername">UserName</label>
+          <input id="textboxusername" name="textboxusername" type="text" placeholder="Enter your username" />
         </div>
         <div class="field" style="margin-top: 16px;">
-          <label for="txtpassword">Password</label>
-          <input id="txtpassword" name="txtpassword" type="password" placeholder="Enter your password" />
+          <label for="textboxmatkhau">Password</label>
+          <input id="textboxmatkhau" name="textboxmatkhau" type="password" placeholder="Enter your password" />
         </div>
         <button id="btnlogin" name="btnlogin" type="submit">Login</button>
       </form>
