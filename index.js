@@ -102,10 +102,10 @@ const loginPage = `<!DOCTYPE html>
           <input id="txtUserName" name="txtUserName" type="text" placeholder="Enter your username" />
         </div>
         <div class="field" style="margin-top: 16px;">
-          <label for="txtmatkhau">Mật khẩu</label>
-          <input id="txtmatkhau" name="txtmatkhau" type="password" placeholder="Enter your password" />
+          <label for="txtpassword">Password</label>
+          <input id="txtpassword" name="txtpassword" type="password" placeholder="Enter your password" />
         </div>
-        <button type="submit">Sign In</button>
+        <button id="btnlogin" name="btnlogin" type="submit">Login</button>
       </form>
     </main>
   </body>
