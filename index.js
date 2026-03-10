@@ -98,7 +98,7 @@ const loginPage = `<!DOCTYPE html>
       <p>Enter your account details to continue.</p>
       <form>
         <div class="field">
-          <label for="txtUserName">UserName</label>
+          <label for="txtUserName">Tên đăng nhập</label>
           <input id="txtUserName" name="txtUserName" type="text" placeholder="Enter your username" />
         </div>
         <div class="field" style="margin-top: 16px;">
