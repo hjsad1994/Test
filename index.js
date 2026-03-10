@@ -7,7 +7,7 @@ const loginPage = `<!DOCTYPE html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Đăng nhập</title>
     <style>
       :root {
         --bg-start: #f4efe6;
@@ -94,7 +94,7 @@ const loginPage = `<!DOCTYPE html>
   </head>
   <body>
     <main class="card">
-      <h1>Login</h1>
+      <h1>Đăng nhập</h1>
       <p>Enter your account details to continue.</p>
       <form>
         <div class="field">
@@ -105,7 +105,7 @@ const loginPage = `<!DOCTYPE html>
           <label for="txtpassword">Password</label>
           <input id="txtpassword" name="txtpassword" type="password" placeholder="Enter your password" />
         </div>
-        <button id="btnlogin" name="btnlogin" type="submit">Login</button>
+        <button id="btnlogin" name="btnlogin" type="submit">Đăng nhập</button>
       </form>
     </main>
   </body>
